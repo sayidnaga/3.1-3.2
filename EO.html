@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body bgcolor="white"></body>
+<title>Pesanan Barang</title>
+</head>
+
+<body>
+    <table style="width: 100%; border-collapse: collapse;" margin-left="20px;">
+        <thead style="background-color: grey; width: fit;">
+            <tr>
+                <th colspan="3">
+                    <h1 style="text-align: center; background-color: grey;"> A Web Page</h1>
+                </th>
+            </tr>
+            <tr>
+                <th style="text-align: left;">
+                    <button>&#8678</button>
+                    <button>&#8680</button>
+                    <button>&#10008</button>
+                    <button>Home</button>
+                    <input style="width: 95%;" class="search" type="text" placeholder="http://" required>
+                    <input class="button" type="button" value="search">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <h1 style="border-bottom:2px solid black;"></h1>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <fieldset>
+                <tr>
+                    <td>
+                        <ul style="border: 1px solid ; float: inline-start;">
+                            <li style="border-right: 1px solid; float: left; padding: 15px;">
+                                <a style="font-size: 20px;" href="#"> <u>Home</u> </a>
+                            </li>
+                            <li style="border-right: 1px solid; float: left; padding: 15px;">
+                                <a style="font-size: 20px;" href="#"><u> Generate Link</u> </a>
+                            </li>
+                            <li style="border-right: 1px solid ; float: left; padding: 15px;">
+                                <a style="font-size: 20px;" href="#"> <u>Transaction History</u> </a>
+                            </li>
+                            <li style="border-right: 1px solid; float: left; padding: 15px;">
+                                <a style="font-size: 20px;" href="#"> <u>Policy</u> </a>
+                            </li>
+                            <li style="float: left; padding: 15px;">
+                                <a style="font-size: 20px;" href="#"> <u>Logout</u> </a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+        </tbody>
+        </fieldset>
+    </table>
+    <fieldset style="float: left;">
+        <img src="img/mac.jpg" alt="" width="200px" height="200px">
+        <br>
+        <input type="submit" value="Upload Photo">
+    </fieldset>
+    <fieldset style="float: center;">
+        <div>
+            <label>Title Here :</label>
+            <input type="text" placeholder="Macbook Air £800">
+        </div>
+        <div>
+            <label>Description :</label>
+            <textarea type="text" cols="40" rows="10" placeholder="Year : 2009; Model :; Condition : Mint;"></textarea>
+        </div>
+        <div>
+            <label>Account Number :</label>
+            <input type="text" placeholder="123-456-789-0">
+        </div>
+        <div>
+            <label>Bank :</label>
+            <input type="text" placeholder="HSBC">
+        </div>
+        <div>
+            <label>Account Holder :</label>
+            <input type="text" placeholder="Name Here">
+        </div>
+        <div>
+            <label>Transaction :<select id="Transaction"></label>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select>
+            <dd>
+                <p> *if the transaction is for 3 person, choose 3 from the drop-down list</p>
+            </dd>
+        </div>
+        <div style="color: green;">
+            <input type="checkbox" value="mobile phone">
+            <label for="mobile phone">Send to Mobile Phone</label><br>
+            <input type="checkbox" value="email">
+            <label for="email">Send to Email</label><br>
+        </div>
+        <div>
+            <label>Send to Mobile Phone :</label>
+            <input type="text" placeholder="1234567890, 1234567891">
+        </div>
+        <div>
+            <label>Send to Email :</label>
+            <input type="text" placeholder="mfmm2g13@soton.ac.uk, fys_06@yahoo.com">
+        </div>
+        <div>
+            <input style="column-rule-color: green" type="submit" value="Generate Nabr Link">
+        </div>
+    </fieldset>
+</body>
+
+</html>
